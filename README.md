@@ -16,6 +16,15 @@ For this mission we’re going to deploy Apache Airflow with the Docker Compose 
 
 In this DAG we’re going to copy data from s3://thecodemancer/Revelo/ to gs://thecodemancer/Revelo/. We could have done this by coding from scratch but Airflow has a rich set of Operators ready to import, configure and use. Having said that, we’ll use the S3ToGCSOperator for simplicity.
 
+## The Tech Stach
+
+- Python
+- Docker
+- Apache Airflow
+- AWS
+- GCP
+
+## Bird's Eye View
 
 <img src="https://github.com/thecodemancer/Airflow-Data-Orchestration-between-AWS-and-GCP/blob/f08d8fbdcb6488f736b17dfc9534ef4370c0175f/images/airflow3.png" />
 
